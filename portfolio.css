@@ -2,9 +2,20 @@ html {
     scroll-padding-top: 60px; /* height of sticky header */
     
   }
+body {
+  background-color: white;
+}
+.name {
+  font-size: 40px;
+  text-align:center;
+  
+  padding: 60px 0px 60px 0px;
+  border-style:initial;
 
+}
 p {
   margin: 0px 30px 0px 30px;
+  flex-wrap: wrap;
 }
 h4 {
     font-weight: 300;
@@ -12,13 +23,13 @@ h4 {
     color: #22A39F;
     margin: 0px 30px 0px 30px;
     padding-top: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     
 }
-img[src="Linkedin Profile Picture.JPG"] {border-color: aqua;
+img[src="Linkedin Profile Picture.JPG"] {
     border-radius: 360px;
-    border: aqua;
-    border-style:groove;  
+    
+    border-style:solid;  
 }
 
 html {
@@ -44,7 +55,10 @@ html {
     }}
 
 .navbar {
-    
+    border-bottom: rgb(136, 134, 134);
+    border-width: 2px;
+    border-bottom-style: solid;
+   
     height: auto;
     width: auto;
     margin: 0 auto;
