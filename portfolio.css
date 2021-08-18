@@ -2,9 +2,7 @@ html {
     scroll-padding-top: 60px; /* height of sticky header */
     
   }
-body {
-    
-}
+
 p {
   margin: 0px 30px 0px 30px;
 }
@@ -13,7 +11,9 @@ h4 {
     font-size: 30px;
     color: #22A39F;
     margin: 0px 30px 0px 30px;
-    padding-top: 25px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    
 }
 img[src="Linkedin Profile Picture.JPG"] {border-color: aqua;
     border-radius: 360px;
@@ -27,7 +27,7 @@ html {
     margin: 0 auto;
     background-color: rgb(250, 249, 249);
     animation-name: stretch;
-    animation-duration: 1s; 
+    animation-duration: 1.5s; 
     animation-timing-function: none; 
     animation-delay: 0;
     animation-direction: alternate;
@@ -44,7 +44,7 @@ html {
     }}
 
 .navbar {
-    animation-delay: 1s;
+    
     height: auto;
     width: auto;
     margin: 0 auto;
@@ -52,7 +52,7 @@ html {
     animation-name: stretch;
     animation-duration: 1.5s; 
     animation-timing-function: none; 
-    animation-delay: 0;
+    animation-delay: 1.5;
     animation-direction: alternate;
     animation-iteration-count: 1.1;
     animation-fill-mode: none;
