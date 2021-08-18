@@ -1,3 +1,61 @@
 html {
     scroll-padding-top: 60px; /* height of sticky header */
+    
   }
+body {
+    margin: 0px 30px 0px 30px;
+}
+h4 {
+    font-weight: 300;
+    font-size: 30px;
+    color: #22A39F;
+}
+img[src="Linkedin Profile Picture.JPG"] {border-color: aqua;
+    border-radius: 360px;
+    border: aqua;
+    border-style:groove;  
+}
+
+html {
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    background-color: rgb(250, 249, 249);
+    animation-name: stretch;
+    animation-duration: 1s; 
+    animation-timing-function: none; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1.1;
+    animation-fill-mode: none;
+    animation-play-state: running;
+  }
+  
+  @keyframes stretch {
+    0% {
+      transform: scale(.3);
+      background-color: rgb(48, 26, 243);
+      border-radius: 100%;
+    }}
+
+.navbar {
+    animation-delay: 1s;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    background-color: rgb(250, 249, 249);
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-timing-function: none; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1.1;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    }
+    @keyframes stretch {
+        0% {
+          transform: scale(.3);
+          background-color: rgb(48, 26, 243);
+          border-radius: 100%;
+        }}
